@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LoanCalculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.12.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# loanCalculator
+Loan Calculator made of angular 17 just a UI screen
+>>>>>>> 2f9af8ca116ac02658fb05b9689a97d44093d79a
