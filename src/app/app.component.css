@@ -1,0 +1,161 @@
+.calculator-container {
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #2A2D3E;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #41445c;
+  }
+
+  .calculator-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .calculator-header h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .back-button, .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .funding-card {
+    background: #363B54;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 15px 5px rgba(76, 212, 202, 0.3);
+  }
+
+  .funding-card .header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #B4B4B4;
+    margin-bottom: 1.5rem;
+  }
+
+  .label {
+    color: #B4B4B4;
+    font-size: 0.9rem;
+  }
+
+  .amount {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    padding-bottom: 1rem;
+  }
+
+  .vehicle-info {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    color: #B4B4B4;
+    font-size: 0.9rem;
+    gap: 2px;
+  }
+
+  .slider-section {
+    margin-bottom: 2rem;
+  }
+
+  .slider-container {
+    margin-bottom: 2rem;
+  }
+
+  .slider-container label {
+    color: #B4B4B4;
+    font-size: 0.9rem;
+  }
+
+  .slider-container h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .slider {
+    width: 100%;
+    margin: 1rem 0;
+    -webkit-appearance: none;
+    height: 4px;
+    background: #4CD4CA;
+    /* background: linear-gradient(to right, #4CD4CA 0%, #4CD4CA var(--value), white var(--value), white 100%); */
+    border-radius: 2px;
+  }
+
+  #amount-progressBar{
+    width: 100%;
+    background: #4CD4CA;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+
+  .range-labels {
+    display: flex;
+    justify-content: space-between;
+    color: #B4B4B4;
+    font-size: 0.8rem;
+  }
+
+  .monthly-payment {
+    background: #363B54;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .monthly-payment label {
+    color: #B4B4B4;
+    font-size: 0.9rem;
+  }
+
+  .monthly-payment h2 {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.8rem;
+  }
+
+  .disclaimer {
+    color: #B4B4B4;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+
+  .apply-button {
+    width: 100%;
+    padding: 1rem;
+    background: #4CD4CA;
+    border: none;
+    border-radius: 8px;
+    color: #2A2D3E;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .footer-container{
+    background-color: #383b4e;
+    padding: 0.5rem;
+  }
